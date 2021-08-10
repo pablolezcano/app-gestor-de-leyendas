@@ -2,12 +2,12 @@ var Datastore = require('nedb');
 
 let bd = new Datastore({filename: 'db/legends.db', autoload: true});
 
-exports.agregarPersona = function(nombres, apellidos){
-    var persona = {
-        nombres: nombres,
-        apellidos: apellidos,
+exports.agregarLeyenda = function(leyendasTitulos, leyendasDescripcion){
+    var leyenda1 = {
+        leyendasTitulos: leyendasTitulos,
+        leyendasDescripcion: leyendasDescripcion,
     };
-    bd.insert(persona, function(error, nuevoObjeto){
+    bd.insert(leyenda1, function(error, nuevoObjeto){
     });
 };
 
@@ -19,8 +19,8 @@ exports.obtenerPersonas = function(operacion) {
     });
 };
 
-exports.obtenerDescripcion = function(apellidos){
-    bd.findOne({apellidos: apellidos}, function(error, apellidos){
+exports.obtenerDescripcion = function(leyendasDescripcion){
+    bd.findOne({leyendasDescripcion: leyendasDescripcion}, function(error, leyendasDescripcion){
         
     });
 };

@@ -11,8 +11,8 @@ const path = require('path');
     
         this.frmNuevoRegistro = document.getElementById('frmNuevoRegistro');
         this.registros = document.getElementById('registros');
-        this.nombres = document.getElementById('nombres');
-        this.apellidos = document.getElementById('apellidos');
+        this.leyendasTitulos = document.getElementById('leyendasTitulos');
+        this.leyendasDescripcion = document.getElementById('leyendasDescripcion');
         this.btnCrearRegistro = document.getElementById('btnCrearRegistro');
  
         this.cargarRegistrosPersona();
@@ -27,26 +27,26 @@ const path = require('path');
 
     crearRegistroPersona(evento) {
         evento.preventDefault();
-        baseDatos.agregarPersona(this.nombres.value, this.apellidos.value);
+        baseDatos.agregarLeyenda(this.leyendasTitulos.value, this.leyendasDescripcion.value);
 
-        this.nombres.value = '';
-        this.apellidos.value = '';
+        this.leyendasTitulos.value = '';
+        this.leyendasDescripcion.value = '';
         this.cargarRegistrosPersona();
 
     }
 
-    generarHtmlRegistroPersona(persona){
+    generarHtmlRegistroPersona(leyenda1){
         return `
     <div class="card card-body my-2 animated">
-        <h4>${persona.nombres}</h4>
+        <h4>${leyenda1.leyendasTitulos}</h4>
         <div id="media-print">
-            <p id="${persona._id}">${persona.apellidos}</p>
+            <p id="${leyenda1._id}">${leyenda1.leyendasDescripcion}</p>
         </div>
         <p>
-            <button class="btn btn-danger" onclick="gestorLeyendas.eliminarRegistroPersona('${persona._id}');">
+            <button class="btn btn-danger" onclick="gestorLeyendas.eliminarRegistroPersona('${leyenda1._id}');">
                 Borrar
             </button>
-            <button class="btn btn-success" onclick="printContent('${persona._id}')">
+            <button class="btn btn-success" onclick="printContent('${leyenda1._id}')">
                 Imprimir
             </button>
         </p>      
