@@ -3,7 +3,7 @@
 Con este repositorio podes guardar textos en una base de datos embebida para imprimirlos en una parte especifica de una hoja.
 
 
->*NOTA*: La version del release v1.0 esta optimizada para que pueda funcionar de manera óptima en Windows 7, en mi  [**blog**](https://pabloromanlezcano.com.ar/blog)
+>*NOTA*: La version del release v1.0 esta optimizada para que pueda funcionar de manera óptima en Windows 7, en mi  [**blog**](https://pablolezcano.com.ar/blog)
  explico con detalles el porqué del mismo. 
 
 # Requisitos
