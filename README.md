@@ -8,15 +8,19 @@ Con este repositorio podes guardar textos en una base de datos embebida para imp
 
 # Requisitos
 
-| Dependencias | Version | Repo |
+| Dependencias | Versión | Repo |
 |---|---|---|
+|NodeJS | v14.15.3. | |
 | Framework Electron | 8.2.0 | https://github.com/electron/electron |
 | electron-packager | 15.2.0 | https://github.com/electron/electron-packager |
-| nedb | 1.8.0 | https://github.com/louischatriot/nedb |
+| nedb | 1.8.0 | https://github.com/louischatriot/nedb|
 
 
-Cuando agregamos texto, se agrega a la base de datos, con esto podemos imprimirla o eliminarla cuando deseamos.
+Una vez instaladas las dependencias, podemos abrir el repo 
 
+# Levantar la app.
+
+En la consola ponemos  ``npm start`` para iniciar el programa.
 
 # Configurar el lugar del texto
 
@@ -31,7 +35,6 @@ Modificamos el tamaño de la hoja
   }
 ```
 Y la posición.
-
 ```
   #media-print {
     width: 650px;
@@ -51,4 +54,14 @@ Y la posición.
       font-size: 10pt;
     }
 ```
+
+# Compilación.
+
+
+Cuando agregamos texto, se agrega a la base de datos, con esto podemos imprimirla o eliminarla cuando deseamos.
+
+
+
+
+
 
