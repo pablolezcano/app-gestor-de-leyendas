@@ -57,8 +57,13 @@ Y la posición.
 
 # Compilación.
 
+Para compilar la aplicación en la terminal agregamos la siguiente linea de código.
 
-Cuando agregamos texto, se agrega a la base de datos, con esto podemos imprimirla o eliminarla cuando deseamos.
+Windows:  ``npm run package-win``
+
+Linux : `` npm run package-linux ``
+
+La aplicación se guardara en la carpeta `` release-builds/ ``
 
 
 
