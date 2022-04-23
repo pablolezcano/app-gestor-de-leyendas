@@ -2,9 +2,9 @@
 
 Con este repositorio podes guardar textos en una base de datos embebida para imprimirlos en una parte especifica de una hoja.
 
-![front](https://github.com/pablolezcano/app-gestor-de-leyendas/blob/main/assets/img/img-1.png?raw=true)
-![front-diag](https://github.com/pablolezcano/app-gestor-de-leyendas/blob/main/assets/img/img-2.png?raw=true)
-![test image size]<img src="https://github.com/pablolezcano/app-gestor-de-leyendas/blob/main/assets/img/img-2.png?raw=true" width="400" height="auto">
+
+ <img src="https://github.com/pablolezcano/app-gestor-de-leyendas/blob/main/assets/img/img-1.png?raw=true" width="400" height="auto">
+ <img src="https://github.com/pablolezcano/app-gestor-de-leyendas/blob/main/assets/img/img-2.png?raw=true" width="400" height="auto">
 
 
 >*NOTA*: La version del release v1.0 esta optimizada para que pueda funcionar de manera óptima en Windows 7, en mi  [**blog**](https://pablolezcano.com.ar/blog)
