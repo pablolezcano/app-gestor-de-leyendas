@@ -2,6 +2,9 @@
 
 Con este repositorio podes guardar textos en una base de datos embebida para imprimirlos en una parte especifica de una hoja.
 
+![front](./assets/img-1.png)
+![front-diag](./assets/img-2.png)
+
 
 >*NOTA*: La version del release v1.0 esta optimizada para que pueda funcionar de manera óptima en Windows 7, en mi  [**blog**](https://pablolezcano.com.ar/blog)
  explico con detalles el porqué del mismo. 
@@ -64,9 +67,6 @@ Windows:  ``npm run package-win``
 Linux : `` npm run package-linux ``
 
 La aplicación se guardara en la carpeta `` release-builds/ ``
-
-
-
 
 
 

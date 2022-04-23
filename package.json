@@ -6,7 +6,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package-win": "electron-packager . gestor-de-leyendas --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Gestor de leyendas\"" ,
+    "package-win": "electron-packager . gestor-de-leyendas --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Gestor de leyendas\"",
     "package-linux": "electron-packager . gestor-de-leyendas --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/icon.ico --prune=true --out=release-builds"
   },
   "repository": {
@@ -21,7 +21,6 @@
   ],
   "author": "Pablo Roman Lezcano | www.pablolezcano.com.ar",
   "license": "ISC",
-  
   "homepage": "",
   "devDependencies": {
     "electron": "^8.2.0"
